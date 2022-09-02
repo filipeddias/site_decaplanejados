@@ -1,0 +1,556 @@
+/* ESTILO DO SITE */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Cormorant:wght@300&family=Didact+Gothic&family=Old+Standard+TT&display=swap');
+/*font-family: 'Cardo', serif;
+font-family: 'Cormorant', serif;
+font-family: 'Didact Gothic', sans-serif;
+font-family: 'Old Standard TT', serif;*/
+/* TOPO*/
+
+body {
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/green-dust-and-scratches.png");
+    font-family: 'Martel', 'Sans';
+    font-size: 15pt;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+ 
+}
+
+/*.linkWhats {
+    background: url(../img/icones/whatsapp_logo_icon_186881.svg);
+    background-attachment: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50%;
+    background-color: white;*/
+    
+header {
+    width: 100%;
+}
+
+.site {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.faixaPreta {
+    background: #000000ef;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.faixaPreta .alto{
+   width: 120%;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+}
+
+.faixaPreta .alto ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.faixaPreta .alto ul li img {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+}
+
+/* FIM TOPO */
+
+/*MENU*/
+
+
+.menu {
+    width: 100%;
+    height: 300px; 
+}
+
+.menu .site {
+    min-width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.menu .meio{
+    background: #000000ef;
+}
+
+.menu .meio .site .topo .botoes h1{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.menu .site h1{
+    background: url(../img/logo/new_logo.png) no-repeat;
+    background-size: 100% 100%;
+    width: 500px;
+    height: 500px;
+    margin-left: 20pt ;
+}
+
+.menu .meio button{
+    display: none;
+}
+
+.menu .meio ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200pt;
+    
+}
+.menu .meio ul a{
+  text-decoration: none;
+  padding: 0px 10px;
+  
+}
+.menu .meio nav ul a li {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'EB Garamond', serif;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    background: #AAD2BA;
+    border-radius: 6px;
+    box-shadow: 1px 2px 1px 2px black;
+    -moz-box-shadow: 5px 5px 5px #6B8F71;
+    -webkit-box-shadow: 4px 4px 4px #AAD2BA;
+}
+
+.red{
+    background: red;
+    width: 100%;
+    height: 600px;
+}
+
+.red div img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.servico {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.servico .site h2 {
+    text-align: center;
+    font-family: 'EB Garamond', serif       ;
+    
+    font-size: 40px;
+    padding: 2px 0px 50px 0px;
+}
+
+.servico .site .ConteudoServico{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.servico .site .ConteudoServico div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 380px;
+}
+
+.servico .site .ConteudoServico div h3{
+    width: 150px;
+    margin: 10px;
+    font-size: 23pt;
+    font-family: 'EB Garamond', serif;
+    background: rgba(255, 162, 0, 0.947);
+    border-radius: 20pt;
+    border: 1px solid black ;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.servico .site .ConteudoServico div img {
+    width: 250px;
+    height: 300px;
+    background: #999;
+    display: flex;
+    margin: 0 10px;  
+    border-radius: 45pt;
+    border: 1px ridge black;
+    
+}
+
+.banner_meio{
+    width: 100%;
+    height: auto;
+    
+}
+
+.banner_meio img{
+    width: 100%;
+    height: 800px;
+}
+
+.sobre {
+    display: grid;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sobre .ConteudoSobre {
+    width: 1024px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre .ConteudoSobre h2 {
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 10px 0px;
+    margin-bottom: 15px;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+
+}
+
+.sobre .ConteudoSobre p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30%;
+    
+}
+
+.sobre .ConteudoSobre img {
+    width: 1024px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.galeria {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  
+}
+
+.galeria img {
+    height: 350px;
+    width: 350px;
+    display: flex;
+    margin: 10px;
+    background: chocolate;
+    border-radius: 6px;
+    box-shadow: 1px 2px 1px 2px black;
+}
+
+.galeria .slick-next::before,
+.galeria .slick-prev::before {
+    right: 25px;
+}
+
+.feed {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-bottom: 60px;
+}
+
+.feed .conteudoFeed {
+    width: 800px;
+    height: 320px;
+    background: url(../img/feed/banner_feed.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: 50pt;
+}
+
+.feed h2 {
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 0px 0 40px 0;
+    margin-bottom: 15px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    
+    font-size: 35px;
+}
+
+.feed .conteudoFeed p {
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px;
+    text-align: center;
+    margin: 15px 30px 0px 30px;
+    padding: 15px;
+}
+
+.rodape {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape .conteudoRodape {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rodape .conteudoRodape .esq ul {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 20px;
+
+}
+
+.rodape .conteudoRodape .esq ul li img {
+    width: 40px;
+    height: 40px;
+}
+
+.rodape .conteudoRodape .esq .ul2 li{
+    border:solid 2px;
+    border-radius:5px 5px 5px 5px;
+   
+
+}
+
+.rodape .conteudoRodape .esq ul li {
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+
+.rodape .conteudoRodape .dir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rodape .conteudoRodape .dir div {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rodape .conteudoRodape .dir div img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.rodape .conteudoRodape .dir div .phone {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape .conteudoRodape .dir .phone p {
+    display: flex;
+    align-items: center;
+
+}
+
+.rodape .conteudoRodape .dir div .email {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape .conteudoRodape .dir .email p {
+    display: flex;
+    align-items: center;
+}
+
+.rodape .conteudoRodape .dir div .endereco {
+    display: flex;
+    justify-content: center;
+
+}
+
+.rodape .conteudoRodape .dir .endereco p {
+    display: flex;
+    align-items: center;
+}
+.direitos{
+    width: 100%;
+    height: 25px;
+    background-color: slategray;
+    display: flex;
+    justify-content: center;
+}
+.direitos p{
+    color: white;
+}
+.direitos span{
+    color: black;
+}
+
+/* RESPONSIVO*/
+@media (max-width: 960px){
+    .menu .site h1 {
+        background: url(../img/logo/new_logo.png) no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 500px;
+        text-indent: -9999999px;   
+    }
+    .menu .meio button{
+        display: none;
+    }
+
+    .menu .meio ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+    }
+    
+    .menu .meio ul a li {
+        width: 105pt;
+        text-align: center;
+        align-items: center;
+    }
+  
+}
+@media (max-width: 804px){
+    .menu .site h1 {
+        background: url(../img/logo/new_logo.png) no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 500px;
+        text-indent: -9999999px;   
+    }
+
+    .servico .ConteudoServico{
+        flex-wrap: wrap;
+    }
+    .servico .ConteudoServico div h3{
+        padding-top: -100pt;
+    }
+    .sobre .ConteudoSobre img {
+       width: 100%;
+       width: 100%; 
+        
+    }
+    .sobre .ConteudoSobre p{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    }
+
+
+@media (max-width: 604px){
+    .menu .site h1 {
+        background: url(../img/logo/new_logo.png) no-repeat;
+        background-size: 100% 100%;
+        width: 700px;
+        height: 500px;
+        text-indent: -9999999px;   
+    }
+
+    .menu .meio button{
+        display: block;
+    } 
+    .menu nav{
+        position: fixed;
+        height: -10%;
+        background:midnightblue;
+        z-index: 9999;
+        padding:10px;
+        margin:0;
+        top:0;
+        max-width: 220px;
+        width: 50%;
+        right: -250px;
+        transition: right .5s ease-out;
+    } 
+    .menuAtivo .menu nav{
+        right: 0px;
+    }
+    .menu nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu nav ul a li{
+        margin-top: 10px;
+    }
+    .menu nav ul a{
+        text-decoration: none;
+        margin: 5% 20%;
+        padding: 10% 0%;
+        width: 120px;
+        height: 15px;
+        text-align: center;
+        border-radius: 10px;
+        color: rgb(255, 255, 255);
+        background: #000000;
+    }
+    .abrirMenu{
+        background: url(../img/menu.svg) no-repeat;
+        background-size: 40px 40px;
+        padding: 25px;
+        border: 0px;
+        margin-left: 12%;
+        margin-top: 5%;
+        display: block;
+    }
+    .fecharMenu{
+        background: url(../img/fechar.svg) no-repeat;
+        background-size: 40px 40px;
+        padding:25px;
+        border: 0px;
+        margin-right: 5%;
+        display: block;
+    }
+    .feed .conteudoFeed{
+        width: 100%;
+    height: 30%;
+    text-align: center;
+    }
+    .rodape .conteudoRodape{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .servico .ConteudoServico h3{
+        padding: 30px;
+    }
+ }
+} 
